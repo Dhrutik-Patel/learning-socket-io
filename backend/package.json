@@ -1,0 +1,21 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "Leaning socket.io",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "server": "nodemon server.js"
+    },
+    "author": "Dhrutik Patel",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "socket.io": "^4.7.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
